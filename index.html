@@ -13,23 +13,28 @@
     <section>
         <h1>POMODORO</h1>
         <label>Focus</label>
-        <select>  
-            <option value="15"></option>
-            <option value="30"></option>
-            <option value="45"></option>
-            <option value="60"></option>
+        <select id="Focus">
+            <option value="15">15</option>
+            <option value="30">30</option>
+            <option value="45">45</option>
+            <option value="60">60</option>
         </select>
         <label>Time Break</label>
-        <select> </select>
-        <p>
+        <select id="Break">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="30">30</option>
+        </select>
+        <p id="timer"> 
             00:00:00
         </p>
         <div>
-            <button>Play</button>
-            <button>Short Break</button>
-            <button>Stop</button>
+            <button class="play">Play</button>
+            <button class="shortBreak">Short Break</button>
+            <button class="stop">Stop</button>
         </div>
     </section>
+    <script src="./src/index.js"></script>
 </body>
 
 </html>
