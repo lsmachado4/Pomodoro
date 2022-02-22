@@ -1,3 +1,3 @@
 # Pomodoro 
 
-Material de estudo para deixar de ser besta. 
+Material de para concentrar nos estudos. 
